@@ -1,0 +1,63 @@
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid" style="align-items: center;">
+        <a class="navbar-brand" style="padding-left:50%" href="#">Nuevo viaje</a>
+      </div>  
+    </nav>
+    <div class="card">
+      <div class="mb-4 mt-4" style="padding-left: 80%;">
+        <button type="button" class="btn btn-primary" style="min-width: 70%;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Guardar
+        </button>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <form class="was-validated ">
+        <div class="container row" style="min-width: 100%;">
+        <div class="mb-4 col-md-3 form-floating" >
+          <input class="form-control" id="fReferencia" placeholder="Required" required>
+          <label for="fReferencia" style="text-align: center;">Referencia*</label>
+          <div class="invalid-feedback">
+            Este campo es necesario
+          </div>
+        </div>
+        <div class="mb-4 col-md-3 form-floating">
+          <input class="form-control" id="fPedido" placeholder="Required" required>
+          <label for="fPedido" style="text-align: center;">Pedido*</label>
+          <div class="invalid-feedback">
+            Este campo es necesario
+          </div>
+        </div>
+        <div class="mb-4 col-md-3 form-floating">
+          <input class="form-control" id="fOperador" placeholder="Required" required>
+          <label for="fOperador" style="text-align: center;">Operador*</label>
+          <div class="invalid-feedback">
+            Este campo es necesario
+          </div>
+        </div>
+        <div class="mb-4 col-md-3 form-floating">
+          <input class="form-control" id="fDestino" placeholder="Required" required>
+          <label for="fDestino" style="text-align: center;">Destino*</label>
+          <div class="invalid-feedback">
+            Este campo es necesario
+          </div>
+        </div>
+      </div>
+      </form>
+    </div>
